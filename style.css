@@ -1,0 +1,47 @@
+#video-call-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    background: linear-gradient(90deg, rgba(141,150,149,1) 0%, rgba(141,150,149,1) 25%, rgba(42,42,42,1) 25%, rgba(42,42,42,1) 100%);
+}
+#start-call-div{
+    margin-top: 10px;
+    margin-left: 2%;
+}
+#local-video{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    margin-left: 2%;
+    border: 2px solid black;
+    width: 20%;
+    height: 30%;
+    background: #eeeeee;
+}
+.call-action-div{
+    position: absolute;
+    top: 42%;
+    left: 4%;
+    
+}
+#join-call-div{
+    position: absolute;
+    margin-left: 5.5%;
+}
+#remote-video{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    bottom: 10%;
+    background: #222222;
+    width: 65%;
+    height: 80%;
+    margin-right: 5%;
+    border: 2px solid black;
+}
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div>
+        <input type="text" id="roomid-field"/>
+        <button onclick="sendRoomId()">Generate</button>
+        <button onclick="startCall()">Start call</button>
+        
+        <div>
+            <br><input placeholder="Enter room ID" type="text" id="roomid-input"/>
+            <button onclick="joinCall()">Join call</button>
+        </div>
+        
+    </div> -->
+
+    <div id="video-call-div">
+        <div id="start-call-div">
+            <label for="roomid-field">Room ID: </label>
+            <input type="text" id="roomid-field" readonly/>
+            <button onclick="startCall()">Start call</button>
+        </div>
+
+        <div><video id="local-video" muted autoplay></video></div>
+
+        <div id="join-call-div">
+            <br><input placeholder="Enter room ID" type="text" id="roomid-input"/>
+            <button onclick="joinCall()">Join call</button>
+        </div>
+
+        <video id="remote-video" autoplay></video>
+
+        <div class="call-action-div">
+            <button onclick="muteVideo()" enabled = true>Mute Video</button>
+            <button onclick="muteAudio()">Mute Audio</button>
+            <button onclick="screenShare()">Share Screen</button>
+        </div>
+        
+
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
